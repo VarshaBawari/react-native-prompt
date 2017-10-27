@@ -8,6 +8,7 @@ import {
   View
 } from 'react-native';
 import styles from './styles';
+import DoneButton from 'react-native-keyboard-done-button';
 
 export default class Prompt extends Component {
   static propTypes = {
@@ -137,6 +138,7 @@ export default class Prompt extends Component {
             </TouchableWithoutFeedback>
           </View>
         </View>
+<DoneButton />
       </View>
     );
   };
